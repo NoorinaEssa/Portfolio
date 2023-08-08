@@ -1,0 +1,479 @@
+#header{
+    color:#fff;
+    background-color:  #3c7ee7;
+}
+.back{
+    background-image: url(canva.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+ height: 100vh;
+ width: 100%;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+    color: #fff;
+}
+
+
+li a{
+    text-decoration: none;
+
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+#menu li{
+    display: inline-block;
+
+}
+#menu li a{
+color: white;
+    padding: 15px 30px;
+   display: block;
+   list-style-type: decoration;
+
+  }
+
+.banner-title h1{
+   
+    color: #e2ecfd;
+    display: inline-block;
+    margin-top: 20%;
+   margin-left: 15%;
+    
+}
+.banner-title p.lead{
+    color: #fff;
+    margin-left: 15%;
+    line-height: 20px;
+    
+
+}
+.banner-title button{
+    border-radius: 25px;
+    padding: 5px 20px;
+    border: none;
+    margin-left: 15%;
+    width: 20%;
+   
+    background-color: #fff;
+
+}
+.banner-title button a{
+    text-decoration: none;
+    border: none;
+    color: #1569fa;
+    background-color: #fff;
+}
+
+.intro p{
+    margin-left: 47%;
+    line-height: 20px;
+
+}
+.intro h5{
+    
+    margin-left: 47%;
+}
+.intro h1{
+    margin-left: 47%;
+    margin-top: -35%;
+}
+
+.intro {
+    height: 100vh;
+    width: 100%;
+
+   
+}
+.intro img{
+    margin-left: -8%;
+    height: 90vh;
+    
+}
+.progress{
+    width: 50%;
+    height: 10px;
+  
+    
+}
+
+#Skill {
+    margin-left: 47%;
+    margin-top: -24%;
+
+}
+.btn1 button{
+    border-radius: 25px;
+    padding: 5px 20px;
+    border: none;
+    margin-top: 3%;
+    color: #fff;
+    background-color: #3c7ee7;
+    width: 30%;
+}
+.btn1 button a{
+    text-decoration: none;
+    border: none;
+    color: #fff;
+  }
+.info{
+    margin-right: 55%;
+    margin-top: 8%;
+    line-height: 5px;
+    box-shadow: 0px 4px 8px 0px , rgba(0,0,0,0.2) 0 6px 20px 0, rgba(0,0,0,1.9);
+}
+.info h6{
+    margin-left: 30%;
+}
+.info p{
+    margin-top: -4%;
+}
+.icons{
+    display: flex;
+    font-size: 30px;
+    margin-left: 30%;
+}
+.fb{
+color: #3c7ee7;
+
+}
+.insta{
+   color: #8039b2;
+    margin-left: 5%;
+   
+}
+.be{
+    color: #1569fa;
+    margin-left: 5%;
+}
+.set{
+    color: #eb4a89;
+    margin-left: 5%;
+}
+.twt{
+    color: #3faaec;
+    margin-left: 5%;
+}
+/*experienced and education*/
+
+#exp{
+    background-color: #f9f9fb;
+    margin-top: 5%;
+ margin-left: -5%;
+  
+
+}
+.exp h3{
+margin-left: 15%;
+margin-top: 8%;
+}
+#exp i{
+    font-size: 45px;
+    color: #a6cefc;
+    margin-left: 35%;
+    margin-top: -10%;
+  
+}
+
+.exp h5{
+    margin-top: -3%;
+margin-left: 26%;
+}
+#exp h2 {
+    margin-left: 30%;
+}
+.exp p{
+    margin-left: 15%;
+    line-height: 25px;
+}
+/*works*/
+
+
+section{
+   
+    width: 100%;
+    
+    
+}
+section h3{
+    margin-left: 13%;
+    margin-top: 8%;
+}
+section ul{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+section ul li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+section ul li.active{
+    background: #3395fa;
+    color: #fff;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+  
+    
+}
+.product .itemBox img{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+/*slider*/
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 5%;
+    position: relative;
+    background: #3395fa;
+    height: 50vh;
+    width: 100%;
+  }
+  
+  /* Slides */
+  .mySlides {
+  text-align: center;
+  }
+  .mySlides h3{
+    margin-left: -6%;
+    color: #fff;
+  }
+  .mySlides p{
+padding-right: 20%;
+text-align: center;
+align-content: flex-start;
+margin-left: 20%;
+color: #fff;
+
+  
+   
+  }
+  .mySlides img{
+    height: 100px;
+    width: 100px;
+    margin-top: 5%;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    box-shadow: 1px 1px 4px darkgrey;
+    align-items: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: #3395fa;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+   
+      background: #3395fa;
+    
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+   
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #fff;
+  }
+  
+  /* Add an italic font style to all quotes */
+  p 
+  {font-style: italic;
+}
+  
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+}
+
+
+
+/*logo*/
+
+
+.logo{
+    margin-top: -0%;
+    display: flex;
+    height: 110px;
+    width: 100%;
+    background-color: #3395fa;
+    justify-content: center;
+   
+}
+.logo img{
+    margin-top: 2%;
+ height: 60px;
+ width: 90px;
+margin-left: 5%;
+pointer-events:fill;
+}
+
+/*form*/
+
+
+#touch{
+    height: 30vh;
+}
+#touch h3{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+#touch h5{
+margin-top: -3%;
+margin-left: 30%;
+}
+#touch p{
+    padding-right: 20%;
+    
+    align-content: flex-start;
+    margin-left: 15%;
+    color: black;
+}
+form{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+form .msg{
+height: 30vh;
+width: 30%;
+
+}
+form .txt{
+    width: 30%;
+}
+form button{
+    border-radius: 25px;
+    padding: 5px 20px;
+    border:none;
+    
+    color: #fff;
+    background-color:  #3c7ee7;
+
+}
+#contact i{
+color: #3395fa;
+}
+#contact{
+  margin-left: 45%;
+  margin-top: -32%;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    margin-top: 30%;
+    text-align: left;
+}
+.map{
+    margin-left: 53%;
+}
+
+/* toggle button */
+
+
+.button1 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
